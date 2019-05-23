@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" description="" minimumThingWorxVersion="8.0.0" name="ArchiveFileManager" packageVersion="1.0.4" vendor="PTC">
+            <JarResources>
+                <FileResource description="" file="archivefilemanager.jar" type="JAR"/>
+            </JarResources>
+        </ExtensionPackage>
+    </ExtensionPackages>
+    <DataShapes>
+		<DataShape name="PTC.SCA.SCO.EXT.CompressedFileInfoDS" description="">
+            <FieldDefinitions>
+                <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="fileName" ordinal="1" />
+                <FieldDefinition aspect.isPrimaryKey="false" baseType="LONG" description="" name="size" ordinal="2" />
+            </FieldDefinitions>
+		</DataShape>
+	</DataShapes>
+    <Resources>
+        <Resource aspect.isCreatable="false" aspect.isEditableExtensionObject="false" className="com.thingworx.resources.archivefilemanager.ArchiveFileManager" description="" name="ArchiveFileManager"/>
+    </Resources>
+</Entities>
